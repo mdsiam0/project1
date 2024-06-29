@@ -3,3 +3,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #dceaf5;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 10%;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #495057;
+}
+.navbar ul .contact-btn {
+    padding: 12px 30px;
+    background-color: #fef3e6;
+    color: #f58a07;
+    border-radius: 50px;
+}
+
