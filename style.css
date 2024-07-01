@@ -226,3 +226,69 @@ nav {
     font-weight: 500;
     max-width: 90%;
 } 
+/* thirdSection-css-end */
+
+/* fourhSection-css-start */
+.fourthSection {
+    height: 900px;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.fourthSection-content {
+    max-width: 50%;
+    padding-top: 150px;
+    
+}
+.fourthSection-content h2 {
+    font-size: 55px;
+    line-height: 1.1;
+    
+    
+}
+.fourthSection-content > p {
+    color: #5c5b78;
+    padding: 30px 0;
+    
+}
+.fourthSection-card-container {
+    display: flex;
+    gap: 20px;
+    
+}
+.fourthSection-card {
+    max-width: 40%;
+}
+.fourthSection-card h4 {
+    color: #f58a07;
+    font-size: 30px;
+    
+}
+.fourthSection-card h5 {
+    font-size: 25px;
+    padding: 20px 0;
+    
+    
+}
+
+
+.fourthSection-card p {
+    color: #5c5b78;
+    max-width: 90%;
+}
+
+.fourthSection-img {
+    padding-top: 150px;
+}
+.fourthSection-img img:nth-child(1) {
+    width: 500px;
+    border-radius: 20px;
+    
+}
+.fourthSection-img img:nth-child(2) {
+    position: absolute;
+    right: 7%;
+    top: 13%;
+}
