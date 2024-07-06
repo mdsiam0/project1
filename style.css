@@ -2,48 +2,64 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    
-    
+    overflow-x: hidden;
+
 }
+
 a {
     text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
+
 /* navbar-css-start */
 
 nav {
     position: sticky;
     top: 0%;
     z-index: 100;
-    box-shadow: 0 0.1px 0.5px black;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);
+    background-color: #ffffff;
+    height: 5rem;
+
 }
 
-    
+
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    padding: 15px 10%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    height: 5rem;
     align-items: center;
-    
-    
+
+
+
+
 }
-.navbar ul li{
-    display: inline-block;
-    padding-right: 20px;
+
+.navbar ul {
+    display: flex;
+    gap: 1.5rem;
     font-weight: bold;
-    color: #36c742;
+    color: #1d3444;
+    align-items: center;
 }
+
 .navbar ul .contact-btn {
-    padding: 12px 30px;
+    padding: 0.75rem 2rem;
     background-color: #fef3e6;
     color: #f58a07;
-    border-radius: 50px;
+    border-radius: 1.5rem;
 }
 
 /* navbar-css-end */
@@ -59,20 +75,23 @@ nav {
     padding: 0 10%;
     position: relative;
     color: #1d3444;
-    
-    
+
+
 }
+
 .hero-content {
     max-width: 50%;
     position: relative;
     top: 100px;
 }
+
 .hero-content h1 {
     font-weight: 600;
     font-size: 60px;
     line-height: 1;
-    
+
 }
+
 .hero-content p {
     font-size: larger;
     padding: 20px 0;
@@ -87,12 +106,13 @@ nav {
     position: absolute;
     right: 10%;
     bottom: 0%;
-   
-    
+
+
 }
+
 .link {
     margin: 40px 0 100px 0;
-    
+
 }
 
 .link a:nth-child(1) {
@@ -102,21 +122,23 @@ nav {
     padding: 25px 30px;
     margin-right: 30px;
 }
+
 .link a:nth-child(2) {
     background-color: #fff;
     color: black;
     border-radius: 50px;
     padding: 25px 30px;
-    
+
 }
+
 .text {
     color: #afb8bb;
     margin-bottom: 20px;
-    
-    
+
+
 }
 
-.company img{
+.company img {
     width: 100px;
     margin-right: 20px;
 }
@@ -127,8 +149,9 @@ nav {
 
 #secondSection {
     height: 800px;
-    padding: 0 10%; 
+    padding: 0 10%;
 }
+
 #secondSection h2 {
     max-width: 70%;
     font-size: 50px;
@@ -136,10 +159,11 @@ nav {
     font-weight: 600;
     margin: 130px 0 40px 0;
 }
-#secondSection > p {
+
+#secondSection>p {
     max-width: 70%;
     font-weight: 500;
-    
+
 }
 
 .card {
@@ -147,18 +171,24 @@ nav {
     justify-content: space-between;
     margin-top: 80px;
 }
+
 .card-img {
     width: 350px;
     border-radius: 20px;
 }
-.card1, .card2, .card3{
+
+.card1,
+.card2,
+.card3 {
     max-width: 30%;
-    
-    
+
+
 }
+
 .card-content {
     padding: 0 10%;
 }
+
 .card-content h5 {
     font-size: 25px;
     font-weight: 500;
@@ -171,6 +201,7 @@ nav {
     color: #5c5b78;
     padding: 20px 0;
 }
+
 .card-link {
     display: flex;
     color: #f58a07;
@@ -187,46 +218,55 @@ nav {
     padding: 0 10%;
     background-color: #edf7ff;
 }
+
 .thirdSection-text {
     display: flex;
     padding: 150px 0 70px 0;
 }
+
 .thirdSection-text h2 {
-    
+
     max-width: 50%;
     font-size: 35px;
     line-height: 1.2;
 }
+
 .thirdSection-text p {
-    
+
     max-width: 50%;
     font-weight: 500;
-    
+
 }
+
 .thirdSection-card-container {
     display: flex;
     justify-content: space-between;
 }
+
 .thirdSection-card {
     max-width: 30%;
     min-height: 300px;
     background-color: #fff;
     border-radius: 30px;
 }
+
 .thirdSection-card img {
     width: 70px;
     padding: 30px 0 0 30px;
 }
+
 .thirdSection-card h5 {
     font-size: 25px;
     padding: 15px 0 0 30px;
 }
+
 .thirdSection-card p {
     padding: 15px 0 0 30px;
     color: #5c5b78;
     font-weight: 500;
     max-width: 90%;
-} 
+}
+
 /* thirdSection-css-end */
 
 /* fourhSection-css-start */
@@ -236,42 +276,49 @@ nav {
     display: flex;
     justify-content: space-between;
     position: relative;
-    
+
 }
+
 .fourthSection-content {
     max-width: 50%;
     padding-top: 150px;
-    
+
 }
+
 .fourthSection-content h2 {
     font-size: 55px;
     line-height: 1.1;
-    
-    
+
+
 }
-.fourthSection-content > p {
+
+.fourthSection-content>p {
     color: #5c5b78;
     padding: 30px 0;
-    
+
 }
+
 .fourthSection-card-container {
     display: flex;
     gap: 20px;
-    
+
 }
+
 .fourthSection-card {
     max-width: 40%;
 }
+
 .fourthSection-card h4 {
     color: #f58a07;
     font-size: 30px;
-    
+
 }
+
 .fourthSection-card h5 {
     font-size: 25px;
     padding: 20px 0;
-    
-    
+
+
 }
 
 
@@ -283,11 +330,13 @@ nav {
 .fourthSection-img {
     padding-top: 150px;
 }
+
 .fourthSection-img img:nth-child(1) {
     width: 500px;
     border-radius: 20px;
-    
+
 }
+
 .fourthSection-img img:nth-child(2) {
     position: absolute;
     right: 7%;
@@ -299,19 +348,22 @@ nav {
 /* fifthSection-css-start */
 
 .fifthSection {
-    height: 900px;   
+    height: 900px;
 }
+
 .fifthSection-container {
     height: 850px;
     background-color: #edf7ff;
     border-radius: 25px;
     margin: 0 8%;
 }
+
 .fifthSection-btn {
     display: flex;
     padding: 40px 0 0 60px;
     gap: 20px;
 }
+
 .fifthSection-btn a {
     padding: 6px 20px;
     border: 1px solid #bebbcc;
@@ -320,25 +372,30 @@ nav {
     font-weight: 500;
     color: #bebbcc;
 }
+
 .fifthSection-btn a:nth-child(1) {
     background-color: #fff;
     border: none;
     color: #f58a07;
 }
+
 .fifthSection-content {
     display: flex;
     padding: 0 60px;
     gap: 20px;
 }
+
 .fifthSection-text {
     max-width: 40%;
     padding-top: 150px;
 }
+
 .fifthSection-text h2 {
     font-size: 50px;
     line-height: 1;
 }
-.fifthSection-text > p {
+
+.fifthSection-text>p {
     padding-top: 30px;
     color: #5c5b78;
 }
@@ -348,16 +405,19 @@ nav {
     padding-top: 30px;
     gap: 10px;
 }
+
 .fifthSection-link p {
     color: #f58a07;
     font-size: 16px;
     font-weight: 500;
 
 }
-.fifthSection-img img{
+
+.fifthSection-img img {
     width: 600px;
     padding-top: 130px;
 }
+
 /* fifthSection-css-end */
 
 /* sisthSection-css-start */
@@ -368,12 +428,15 @@ nav {
     display: flex;
     max-width: 100vw;
 }
+
 .sixthSection img {
     width: 50%;
 }
+
 .sixthSection-content {
     padding: 5%;
 }
+
 .sixthSection-content h4 {
     font-size: 50px;
     line-height: 1;
@@ -381,15 +444,16 @@ nav {
     margin-bottom: 40px;
 }
 
-.sixthSection-content  a {
-   padding: 15px 25px;
-   background-color: #fff;
-   color: #f58a07;
-   border-radius: 25px;
-   font-weight: 600;
-   
-   
+.sixthSection-content a {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #f58a07;
+    border-radius: 25px;
+    font-weight: 600;
+
+
 }
+
 /* sisthSection-css-end */
 
 /* seventhSection-css-start */
@@ -399,11 +463,12 @@ nav {
     display: flex;
     padding: 0 10%;
     align-items: center;
-    
+
     justify-content: space-between;
-    
+
 
 }
+
 .seventhSection-content {
     width: 50%;
     margin-left: 30px;
@@ -413,14 +478,17 @@ nav {
     font-size: 50px;
     line-height: 1;
 }
+
 .seventhSection-content p {
     padding: 30px 0;
 }
+
 .testimony {
     display: flex;
     gap: 20px;
     align-items: center;
 }
+
 .testimony-text h5 {
     color: #f58a07;
 }
@@ -439,23 +507,27 @@ footer {
     background-color: #063255;
     padding: 0 10%;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
 
 }
+
 .footer-container>* {
-    
+
     width: 32%;
 }
+
 .social h3 {
     font-size: 35px;
     color: #fff;
     font-weight: 600;
     padding: 30px 0;
-    
+
 }
+
 .social-media {
     display: flex;
     gap: 20px;
@@ -473,35 +545,41 @@ footer {
     color: #ccd5dc;
     font-size: 15px;
     padding-top: 10px;
-    
+
 }
+
 .about-link {
     padding-top: 30px;
 }
+
 .connect a {
     display: block;
     color: #ccd5dc;
     font-size: 15px;
     padding-top: 10px;
-    
+
 }
+
 .connect-link {
     padding-top: 30px;
 }
+
 .newsletter {
     color: #fff;
     font-size: 20px;
-    
+
 }
+
 .newsletter input {
     display: block;
     margin: 40px 0;
-    padding: 16px 150px 16px 20px; 
+    padding: 16px 150px 16px 20px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
-    
+
 }
+
 .newsletter a {
     color: #fff;
     padding: 10px 30px;
@@ -510,6 +588,7 @@ footer {
     font-size: 16px;
     font-weight: 600;
 }
+
 .policy {
     display: flex;
     color: #fff;
@@ -517,15 +596,15 @@ footer {
     justify-content: space-between;
     padding-top: 40px;
 }
+
 .policy-link {
     display: flex;
     font-size: 12px;
     gap: 20px;
 }
-.policy-link a{
+
+.policy-link a {
     color: #ccd5dc;
 }
 
 /* footer-css-end */
-
-
