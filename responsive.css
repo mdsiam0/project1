@@ -11,6 +11,11 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
     .navbar {
-        max-width: 66rem;
+        max-width: 64rem;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+    .navbar {
+        max-width: 56rem;
     }
 }
