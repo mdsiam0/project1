@@ -1,11 +1,12 @@
+/* navbar-css-start */
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
 
-    /* navbar-css-start */
-   
+    
+
     .navbar {
         max-width: 72rem;
     }
-    
+
     /* navbar-css-end */
 }
 
@@ -14,8 +15,57 @@
         max-width: 64rem;
     }
 }
-@media only screen and (min-width: 640px) and (max-width: 1023px) {
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     .navbar {
         max-width: 56rem;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar {
+        max-width: 42rem;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 0.5rem;
+        font-weight: bold;
+        color: #1d3444;
+        align-items: center;
+        font-size: 0.6rem;
+    }
+
+    .navbar ul .contact-btn {
+        padding: 0.65rem 1.5rem;
+        background-color: #fef3e6;
+        color: #f58a07;
+        border-radius: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .navbar {
+        max-width: 40rem;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 0.2rem;
+        font-weight: bold;
+        color: #1d3444;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+
+    .navbar ul .contact-btn {
+        padding: 0.45rem 0.45rem;
+        background-color: #fef3e6;
+        color: #f58a07;
+        border-radius: 1.5rem;
+    }
+    .navbar a img{
+        max-width: 5rem;
+    }
+}
+/* navbar-css-end */
