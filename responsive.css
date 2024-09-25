@@ -3,27 +3,28 @@
 
     
 
-    .navbar {
-        max-width: 72rem;
+    
+    .w {
+        max-width: 74rem;
     }
 
-    /* navbar-css-end */
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .navbar {
+    .w  {
         max-width: 64rem;
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
-    .navbar {
+    .w  {
         max-width: 56rem;
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .navbar {
+    .w  {
         max-width: 42rem;
     }
 
@@ -45,7 +46,7 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .navbar {
+    .w  {
         max-width: 40rem;
     }
 
@@ -69,3 +70,8 @@
     }
 }
 /* navbar-css-end */
+
+/* hero-section-css-start */
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    
+}
